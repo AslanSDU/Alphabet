@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator">
+
+    <rotate
+        android:duration="670"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/cycle_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="700"
+        android:toDegrees="720" />
+
+    <translate
+        android:duration="200"
+        android:fillAfter="true"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:startOffset="700"
+        android:toXDelta="3%p"
+        android:toYDelta="-20%p" />
+
+    <alpha
+        android:duration="50"
+        android:fromAlpha="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:startOffset="750"
+        android:toAlpha="1.0" />
+
+    <translate
+        android:duration="70"
+        android:fillAfter="true"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:startOffset="900"
+        android:toXDelta="1%p"
+        android:toYDelta="-1%p" />
+
+    <translate
+        android:duration="70"
+        android:fillAfter="true"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:startOffset="970"
+        android:toXDelta="1%p"
+        android:toYDelta="1%p" />
+
+    <translate
+        android:duration="280"
+        android:fillAfter="true"
+        android:fromXDelta="0%p"
+        android:fromYDelta="0%p"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:startOffset="1040"
+        android:toXDelta="4%p"
+        android:toYDelta="30%p" />
+</set>

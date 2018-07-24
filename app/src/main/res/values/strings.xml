@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">English for Kids</string>
+
+    <string name="activity_main_title">English for Kids</string>
+    <string name="activity_main_letters">Alphabet</string>
+    <string name="activity_main_dictionary">Dictionary</string>
+    <string name="activity_main_audio">Audio</string>
+    <string name="activity_main_poems">Poems</string>
+    <string name="activity_main_digits">Digits</string>
+    <string name="activity_main_colors">Colors</string>
+</resources>

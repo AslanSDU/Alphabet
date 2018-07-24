@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/board"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:id="@+id/activity_digits_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="5"
+        android:orientation="horizontal"
+        android:paddingBottom="40dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="30dp"
+        android:rowCount="4"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/activity_digit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="40dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="30dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/activity_digit_layout_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/activity_digit_layout_digit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/activity_digit_layout_text"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/box" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_one"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_two"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_three"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_four"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_five"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_six"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_seven"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_eight"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_nine"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/activity_digit_layout_ten"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_digit_layout_digit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ball" />
+    </RelativeLayout>
+</LinearLayout>
